@@ -1,0 +1,4 @@
+[console_scripts]
+follow_the_gap = follow_the_gap.follow_the_gap:main
+test_lidar = follow_the_gap.test_lidar:main
+

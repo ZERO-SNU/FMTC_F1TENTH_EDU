@@ -1,0 +1,7 @@
+[01m[K/home/zero/f1tenth_ws/src/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kdouble WallFollow::get_range(const float*, double)[m[K’:
+[01m[K/home/zero/f1tenth_ws/src/wall_follow/src/wall_follow_node.cpp:55:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krange_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     double get_range([01;35m[Kconst float* range_data[m[K, double angle)
+                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/zero/f1tenth_ws/src/wall_follow/src/wall_follow_node.cpp:55:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     double get_range(const float* range_data, [01;35m[Kdouble angle[m[K)
+                                               [01;35m[K~~~~~~~^~~~~[m[K

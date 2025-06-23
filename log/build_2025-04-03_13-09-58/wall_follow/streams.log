@@ -1,0 +1,97 @@
+[0.060s] Invoking command in '/home/zero/f1tenth_ws/src/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zero/f1tenth_ws/install/f1tenth_stack:/home/zero/f1tenth_ws/install/joy_teleop:/home/zero/f1tenth_ws/install/mouse_teleop:/home/zero/f1tenth_ws/install/key_teleop:/home/zero/f1tenth_ws/install/follow_the_gap:/opt/ros/foxy /usr/bin/cmake /home/zero/f1tenth_ws/src/wall_follow -DCMAKE_INSTALL_PREFIX=/home/zero/f1tenth_ws/src/install/wall_follow
+[0.357s] -- The C compiler identification is GNU 8.4.0
+[0.662s] -- The CXX compiler identification is GNU 8.4.0
+[0.686s] -- Check for working C compiler: /usr/bin/cc
+[1.153s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.157s] -- Detecting C compiler ABI info
+[1.579s] -- Detecting C compiler ABI info - done
+[1.638s] -- Detecting C compile features
+[1.641s] -- Detecting C compile features - done
+[1.653s] -- Check for working CXX compiler: /usr/bin/c++
+[2.000s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.005s] -- Detecting CXX compiler ABI info
+[2.360s] -- Detecting CXX compiler ABI info - done
+[2.414s] -- Detecting CXX compile features
+[2.417s] -- Detecting CXX compile features - done
+[2.438s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.580s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.581s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.068s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.389s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.446s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.106s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.246s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.038s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.050s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.054s] -- Looking for pthread.h
+[6.589s] -- Looking for pthread.h - found
+[6.590s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.150s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.150s] -- Looking for pthread_create in pthreads
+[7.631s] -- Looking for pthread_create in pthreads - not found
+[7.633s] -- Looking for pthread_create in pthread
+[8.253s] -- Looking for pthread_create in pthread - found
+[8.257s] -- Found Threads: TRUE  
+[9.306s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[9.323s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[9.519s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[9.902s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[10.139s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[10.913s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.569s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.581s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.584s] -- Configured cppcheck include dirs: /home/zero/f1tenth_ws/src/wall_follow/include
+[11.585s] -- Configured cppcheck exclude dirs and/or files: 
+[11.596s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.597s] -- Configured cpplint exclude dirs and/or files: 
+[11.602s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.610s] -- Added test 'lint_cmake' to check CMake code style
+[11.614s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[11.624s] -- Added test 'uncrustify' to check C / C++ code style
+[11.625s] -- Configured uncrustify additional arguments: 
+[11.629s] -- Added test 'xmllint' to check XML markup files
+[11.648s] -- Configuring done
+[11.702s] -- Generating done
+[11.739s] -- Build files have been written to: /home/zero/f1tenth_ws/src/build/wall_follow
+[11.807s] Invoked command in '/home/zero/f1tenth_ws/src/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zero/f1tenth_ws/install/f1tenth_stack:/home/zero/f1tenth_ws/install/joy_teleop:/home/zero/f1tenth_ws/install/mouse_teleop:/home/zero/f1tenth_ws/install/key_teleop:/home/zero/f1tenth_ws/install/follow_the_gap:/opt/ros/foxy /usr/bin/cmake /home/zero/f1tenth_ws/src/wall_follow -DCMAKE_INSTALL_PREFIX=/home/zero/f1tenth_ws/src/install/wall_follow
+[11.811s] Invoking command in '/home/zero/f1tenth_ws/src/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zero/f1tenth_ws/install/f1tenth_stack:/home/zero/f1tenth_ws/install/joy_teleop:/home/zero/f1tenth_ws/install/mouse_teleop:/home/zero/f1tenth_ws/install/key_teleop:/home/zero/f1tenth_ws/install/follow_the_gap:/opt/ros/foxy /usr/bin/cmake --build /home/zero/f1tenth_ws/src/build/wall_follow -- -j4 -l4
+[12.106s] [35m[1mScanning dependencies of target wall_follow_node[0m
+[12.360s] [ 50%] [32mBuilding CXX object CMakeFiles/wall_follow_node.dir/src/wall_follow_node.cpp.o[0m
+[18.503s] [01m[K/home/zero/f1tenth_ws/src/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kdouble WallFollow::get_range(const float*, double)[m[K’:
+[18.504s] [01m[K/home/zero/f1tenth_ws/src/wall_follow/src/wall_follow_node.cpp:54:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krange_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[18.504s]      double get_range([01;35m[Kconst float* range_data[m[K, double angle)
+[18.505s]                       [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[18.505s] [01m[K/home/zero/f1tenth_ws/src/wall_follow/src/wall_follow_node.cpp:54:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[18.506s]      double get_range(const float* range_data, [01;35m[Kdouble angle[m[K)
+[18.506s]                                                [01;35m[K~~~~~~~^~~~~[m[K
+[35.264s] [100%] [32m[1mLinking CXX executable wall_follow_node[0m
+[36.956s] [100%] Built target wall_follow_node
+[37.118s] Invoked command in '/home/zero/f1tenth_ws/src/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zero/f1tenth_ws/install/f1tenth_stack:/home/zero/f1tenth_ws/install/joy_teleop:/home/zero/f1tenth_ws/install/mouse_teleop:/home/zero/f1tenth_ws/install/key_teleop:/home/zero/f1tenth_ws/install/follow_the_gap:/opt/ros/foxy /usr/bin/cmake --build /home/zero/f1tenth_ws/src/build/wall_follow -- -j4 -l4
+[37.121s] Invoking command in '/home/zero/f1tenth_ws/src/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zero/f1tenth_ws/install/f1tenth_stack:/home/zero/f1tenth_ws/install/joy_teleop:/home/zero/f1tenth_ws/install/mouse_teleop:/home/zero/f1tenth_ws/install/key_teleop:/home/zero/f1tenth_ws/install/follow_the_gap:/opt/ros/foxy /usr/bin/cmake --install /home/zero/f1tenth_ws/src/build/wall_follow
+[37.213s] -- Install configuration: ""
+[37.215s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/lib/wall_follow/wall_follow_node
+[37.231s] -- Set runtime path of "/home/zero/f1tenth_ws/src/install/wall_follow/lib/wall_follow/wall_follow_node" to ""
+[37.232s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+[37.233s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+[37.233s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/lib/python3.8/site-packages/wall_follow
+[37.234s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py
+[37.404s] Listing '/home/zero/f1tenth_ws/src/install/wall_follow/lib/python3.8/site-packages/wall_follow'...
+[37.405s] Compiling '/home/zero/f1tenth_ws/src/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py'...
+[37.430s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/lib/wall_follow/wall_follow_node.py
+[37.433s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+[37.435s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+[37.437s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+[37.439s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+[37.440s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/environment/path.sh
+[37.442s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/environment/path.dsv
+[37.444s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/local_setup.bash
+[37.446s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/local_setup.sh
+[37.448s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/local_setup.zsh
+[37.450s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/local_setup.dsv
+[37.452s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/package.dsv
+[37.454s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+[37.456s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+[37.457s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+[37.459s] -- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/package.xml
+[37.477s] Invoked command in '/home/zero/f1tenth_ws/src/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zero/f1tenth_ws/install/f1tenth_stack:/home/zero/f1tenth_ws/install/joy_teleop:/home/zero/f1tenth_ws/install/mouse_teleop:/home/zero/f1tenth_ws/install/key_teleop:/home/zero/f1tenth_ws/install/follow_the_gap:/opt/ros/foxy /usr/bin/cmake --install /home/zero/f1tenth_ws/src/build/wall_follow

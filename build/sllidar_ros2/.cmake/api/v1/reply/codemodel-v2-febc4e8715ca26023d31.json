@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sllidar_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sllidar_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sllidar_client-aceec9a3bb1b0edfe5cb.json",
+					"name" : "sllidar_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sllidar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sllidar_node-61aa7c25b2d80a7f7830.json",
+					"name" : "sllidar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sllidar_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sllidar_ros2_uninstall-c1bce2878d798757d175.json",
+					"name" : "sllidar_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-87ec6db013f0df239465.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zero/f1tenth_ws/src/build/sllidar_ros2",
+		"source" : "/home/zero/f1tenth_ws/src/sllidar_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

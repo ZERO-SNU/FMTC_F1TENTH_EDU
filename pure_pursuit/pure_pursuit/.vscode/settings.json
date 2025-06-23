@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/user/sim_ws/install/wall_follow/lib/python3.8/site-packages",
+        "/home/user/sim_ws/install/safety_node/lib/python3.8/site-packages",
+        "/home/user/sim_ws/install/follow_the_gap/lib/python3.8/site-packages",
+        "/home/user/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/user/sim_ws/install/wall_follow/lib/python3.8/site-packages",
+        "/home/user/sim_ws/install/safety_node/lib/python3.8/site-packages",
+        "/home/user/sim_ws/install/follow_the_gap/lib/python3.8/site-packages",
+        "/home/user/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

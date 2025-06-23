@@ -1,0 +1,101 @@
+[0.118s] Invoking command in '/home/zero/f1tenth_ws/src/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs:/home/zero/f1tenth_ws/install/vesc:/home/zero/f1tenth_ws/install/vesc_driver:/home/zero/f1tenth_ws/install/vesc_ackermann:/home/zero/f1tenth_ws/install/vesc_msgs:/home/zero/f1tenth_ws/install/teleop_tools:/home/zero/f1tenth_ws/install/teleop_tools_msgs:/home/zero/f1tenth_ws/install/sllidar_ros2:/home/zero/f1tenth_ws/install/ackermann_mux:/home/zero/f1tenth_ws/install/f1tenth_stack:/home/zero/f1tenth_ws/install/joy_teleop:/home/zero/f1tenth_ws/install/mouse_teleop:/home/zero/f1tenth_ws/install/key_teleop:/home/zero/f1tenth_ws/install/follow_the_gap:/opt/ros/foxy LD_LIBRARY_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zero/f1tenth_ws/src/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zero/f1tenth_ws/src/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/zero/f1tenth_ws/src/install/vesc_ackermann
+[0.572s] -- The C compiler identification is GNU 8.4.0
+[0.947s] -- The CXX compiler identification is GNU 8.4.0
+[0.995s] -- Check for working C compiler: /usr/bin/cc
+[1.645s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.648s] -- Detecting C compiler ABI info
+[2.247s] -- Detecting C compiler ABI info - done
+[2.350s] -- Detecting C compile features
+[2.351s] -- Detecting C compile features - done
+[2.378s] -- Check for working CXX compiler: /usr/bin/c++
+[3.079s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.084s] -- Detecting CXX compiler ABI info
+[3.791s] -- Detecting CXX compiler ABI info - done
+[3.910s] -- Detecting CXX compile features
+[3.917s] -- Detecting CXX compile features - done
+[3.968s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[4.168s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.168s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.802s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.536s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.745s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.846s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.855s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.859s] -- Looking for pthread.h
+[10.440s] -- Looking for pthread.h - found
+[10.441s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.850s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.853s] -- Looking for pthread_create in pthreads
+[11.367s] -- Looking for pthread_create in pthreads - not found
+[11.376s] -- Looking for pthread_create in pthread
+[11.936s] -- Looking for pthread_create in pthread - found
+[11.942s] -- Found Threads: TRUE  
+[16.608s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[16.912s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.922s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.923s] -- Configured cppcheck include dirs: /home/zero/f1tenth_ws/src/vesc/vesc_ackermann/include
+[16.924s] -- Configured cppcheck exclude dirs and/or files: 
+[16.929s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[16.930s] -- Configured cpplint exclude dirs and/or files: 
+[16.934s] -- Added test 'lint_cmake' to check CMake code style
+[16.941s] -- Added test 'uncrustify' to check C / C++ code style
+[16.942s] -- Configured uncrustify additional arguments: 
+[16.944s] -- Added test 'xmllint' to check XML markup files
+[16.974s] -- Configuring done
+[17.147s] -- Generating done
+[17.224s] -- Build files have been written to: /home/zero/f1tenth_ws/src/build/vesc_ackermann
+[17.295s] Invoked command in '/home/zero/f1tenth_ws/src/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs:/home/zero/f1tenth_ws/install/vesc:/home/zero/f1tenth_ws/install/vesc_driver:/home/zero/f1tenth_ws/install/vesc_ackermann:/home/zero/f1tenth_ws/install/vesc_msgs:/home/zero/f1tenth_ws/install/teleop_tools:/home/zero/f1tenth_ws/install/teleop_tools_msgs:/home/zero/f1tenth_ws/install/sllidar_ros2:/home/zero/f1tenth_ws/install/ackermann_mux:/home/zero/f1tenth_ws/install/f1tenth_stack:/home/zero/f1tenth_ws/install/joy_teleop:/home/zero/f1tenth_ws/install/mouse_teleop:/home/zero/f1tenth_ws/install/key_teleop:/home/zero/f1tenth_ws/install/follow_the_gap:/opt/ros/foxy LD_LIBRARY_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zero/f1tenth_ws/src/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/zero/f1tenth_ws/src/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/zero/f1tenth_ws/src/install/vesc_ackermann
+[17.305s] Invoking command in '/home/zero/f1tenth_ws/src/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs:/home/zero/f1tenth_ws/install/vesc:/home/zero/f1tenth_ws/install/vesc_driver:/home/zero/f1tenth_ws/install/vesc_ackermann:/home/zero/f1tenth_ws/install/vesc_msgs:/home/zero/f1tenth_ws/install/teleop_tools:/home/zero/f1tenth_ws/install/teleop_tools_msgs:/home/zero/f1tenth_ws/install/sllidar_ros2:/home/zero/f1tenth_ws/install/ackermann_mux:/home/zero/f1tenth_ws/install/f1tenth_stack:/home/zero/f1tenth_ws/install/joy_teleop:/home/zero/f1tenth_ws/install/mouse_teleop:/home/zero/f1tenth_ws/install/key_teleop:/home/zero/f1tenth_ws/install/follow_the_gap:/opt/ros/foxy LD_LIBRARY_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zero/f1tenth_ws/src/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zero/f1tenth_ws/src/build/vesc_ackermann -- -j4 -l4
+[17.730s] [35m[1mScanning dependencies of target ackermann_to_vesc_node[0m
+[18.102s] [ 14%] [32mBuilding CXX object CMakeFiles/ackermann_to_vesc_node.dir/rclcpp_components/node_main_ackermann_to_vesc_node.cpp.o[0m
+[27.751s] [ 28%] [32m[1mLinking CXX executable ackermann_to_vesc_node[0m
+[28.564s] [ 28%] Built target ackermann_to_vesc_node
+[28.647s] [35m[1mScanning dependencies of target vesc_ackermann[0m
+[29.021s] [ 42%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[52.032s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[80.089s] [ 71%] [32m[1mLinking CXX shared library libvesc_ackermann.so[0m
+[82.625s] [ 71%] Built target vesc_ackermann
+[82.674s] [35m[1mScanning dependencies of target vesc_to_odom_node[0m
+[82.825s] [ 85%] [32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o[0m
+[89.167s] [100%] [32m[1mLinking CXX executable vesc_to_odom_node[0m
+[89.649s] [100%] Built target vesc_to_odom_node
+[89.698s] Invoked command in '/home/zero/f1tenth_ws/src/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs:/home/zero/f1tenth_ws/install/vesc:/home/zero/f1tenth_ws/install/vesc_driver:/home/zero/f1tenth_ws/install/vesc_ackermann:/home/zero/f1tenth_ws/install/vesc_msgs:/home/zero/f1tenth_ws/install/teleop_tools:/home/zero/f1tenth_ws/install/teleop_tools_msgs:/home/zero/f1tenth_ws/install/sllidar_ros2:/home/zero/f1tenth_ws/install/ackermann_mux:/home/zero/f1tenth_ws/install/f1tenth_stack:/home/zero/f1tenth_ws/install/joy_teleop:/home/zero/f1tenth_ws/install/mouse_teleop:/home/zero/f1tenth_ws/install/key_teleop:/home/zero/f1tenth_ws/install/follow_the_gap:/opt/ros/foxy LD_LIBRARY_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zero/f1tenth_ws/src/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zero/f1tenth_ws/src/build/vesc_ackermann -- -j4 -l4
+[89.708s] Invoking command in '/home/zero/f1tenth_ws/src/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs:/home/zero/f1tenth_ws/install/vesc:/home/zero/f1tenth_ws/install/vesc_driver:/home/zero/f1tenth_ws/install/vesc_ackermann:/home/zero/f1tenth_ws/install/vesc_msgs:/home/zero/f1tenth_ws/install/teleop_tools:/home/zero/f1tenth_ws/install/teleop_tools_msgs:/home/zero/f1tenth_ws/install/sllidar_ros2:/home/zero/f1tenth_ws/install/ackermann_mux:/home/zero/f1tenth_ws/install/f1tenth_stack:/home/zero/f1tenth_ws/install/joy_teleop:/home/zero/f1tenth_ws/install/mouse_teleop:/home/zero/f1tenth_ws/install/key_teleop:/home/zero/f1tenth_ws/install/follow_the_gap:/opt/ros/foxy LD_LIBRARY_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zero/f1tenth_ws/src/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zero/f1tenth_ws/src/build/vesc_ackermann
+[89.745s] -- Install configuration: ""
+[89.746s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node
+[89.751s] -- Set runtime path of "/home/zero/f1tenth_ws/src/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node" to ""
+[89.751s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node
+[89.753s] -- Set runtime path of "/home/zero/f1tenth_ws/src/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node" to ""
+[89.754s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/include
+[89.754s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/include/vesc_ackermann
+[89.755s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp
+[89.755s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp
+[89.757s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh
+[89.758s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv
+[89.759s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/lib/libvesc_ackermann.so
+[89.789s] -- Set runtime path of "/home/zero/f1tenth_ws/src/install/vesc_ackermann/lib/libvesc_ackermann.so" to ""
+[89.790s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/launch
+[89.790s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml
+[89.800s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml
+[89.807s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann
+[89.809s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann
+[89.810s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh
+[89.811s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv
+[89.812s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh
+[89.812s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv
+[89.813s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash
+[89.815s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh
+[89.816s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh
+[89.819s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv
+[89.820s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/package.dsv
+[89.822s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann
+[89.822s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann
+[89.824s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake
+[89.826s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake
+[89.827s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake
+[89.828s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake
+[89.830s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake
+[89.831s] -- Installing: /home/zero/f1tenth_ws/src/install/vesc_ackermann/share/vesc_ackermann/package.xml
+[89.840s] Invoked command in '/home/zero/f1tenth_ws/src/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs:/home/zero/f1tenth_ws/install/vesc:/home/zero/f1tenth_ws/install/vesc_driver:/home/zero/f1tenth_ws/install/vesc_ackermann:/home/zero/f1tenth_ws/install/vesc_msgs:/home/zero/f1tenth_ws/install/teleop_tools:/home/zero/f1tenth_ws/install/teleop_tools_msgs:/home/zero/f1tenth_ws/install/sllidar_ros2:/home/zero/f1tenth_ws/install/ackermann_mux:/home/zero/f1tenth_ws/install/f1tenth_stack:/home/zero/f1tenth_ws/install/joy_teleop:/home/zero/f1tenth_ws/install/mouse_teleop:/home/zero/f1tenth_ws/install/key_teleop:/home/zero/f1tenth_ws/install/follow_the_gap:/opt/ros/foxy LD_LIBRARY_PATH=/home/zero/f1tenth_ws/src/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zero/f1tenth_ws/src/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zero/f1tenth_ws/src/build/vesc_ackermann

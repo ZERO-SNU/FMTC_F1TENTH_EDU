@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target wall_follow_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wall_follow_node.dir/src/wall_follow_node.cpp.o[0m
+[01m[K/home/zero/f1tenth_ws/src/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kdouble WallFollow::get_range(const float*, double)[m[K’:
+[01m[K/home/zero/f1tenth_ws/src/wall_follow/src/wall_follow_node.cpp:55:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krange_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     double get_range([01;35m[Kconst float* range_data[m[K, double angle)
+                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/zero/f1tenth_ws/src/wall_follow/src/wall_follow_node.cpp:55:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     double get_range(const float* range_data, [01;35m[Kdouble angle[m[K)
+                                               [01;35m[K~~~~~~~^~~~~[m[K
+[100%] [32m[1mLinking CXX executable wall_follow_node[0m
+[100%] Built target wall_follow_node
+-- Install configuration: ""
+-- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/lib/wall_follow/wall_follow_node
+-- Set runtime path of "/home/zero/f1tenth_ws/src/install/wall_follow/lib/wall_follow/wall_follow_node" to ""
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/lib/python3.8/site-packages/wall_follow
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py
+Listing '/home/zero/f1tenth_ws/src/install/wall_follow/lib/python3.8/site-packages/wall_follow'...
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/lib/wall_follow/wall_follow_node.py
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/environment/path.sh
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/environment/path.dsv
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/local_setup.bash
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/local_setup.sh
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/local_setup.zsh
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/local_setup.dsv
+-- Installing: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/package.dsv
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+-- Up-to-date: /home/zero/f1tenth_ws/src/install/wall_follow/share/wall_follow/package.xml

@@ -1,0 +1,43 @@
+[3.601s] Invoking command in '/home/zero/f1tenth_ws/src/follow_the_gap': PYTHONPATH=/home/zero/f1tenth_ws/src/build/follow_the_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zero/f1tenth_ws/src/install/follow_the_gap/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/follow_the_gap build --build-base /home/zero/f1tenth_ws/src/build/follow_the_gap/build install --record /home/zero/f1tenth_ws/src/build/follow_the_gap/install.log --install-scripts $base/lib/follow_the_gap --single-version-externally-managed install_data
+[4.820s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.820s]   warnings.warn(
+[4.978s] running egg_info
+[4.981s] creating ../build/follow_the_gap/follow_the_gap.egg-info
+[4.982s] writing ../build/follow_the_gap/follow_the_gap.egg-info/PKG-INFO
+[4.982s] writing dependency_links to ../build/follow_the_gap/follow_the_gap.egg-info/dependency_links.txt
+[4.983s] writing entry points to ../build/follow_the_gap/follow_the_gap.egg-info/entry_points.txt
+[4.983s] writing requirements to ../build/follow_the_gap/follow_the_gap.egg-info/requires.txt
+[4.984s] writing top-level names to ../build/follow_the_gap/follow_the_gap.egg-info/top_level.txt
+[4.990s] writing manifest file '../build/follow_the_gap/follow_the_gap.egg-info/SOURCES.txt'
+[4.997s] reading manifest file '../build/follow_the_gap/follow_the_gap.egg-info/SOURCES.txt'
+[5.001s] writing manifest file '../build/follow_the_gap/follow_the_gap.egg-info/SOURCES.txt'
+[5.002s] running build
+[5.002s] running build_py
+[5.003s] creating /home/zero/f1tenth_ws/src/build/follow_the_gap/build
+[5.003s] creating /home/zero/f1tenth_ws/src/build/follow_the_gap/build/lib
+[5.004s] creating /home/zero/f1tenth_ws/src/build/follow_the_gap/build/lib/follow_the_gap
+[5.004s] copying follow_the_gap/follow_the_gap.py -> /home/zero/f1tenth_ws/src/build/follow_the_gap/build/lib/follow_the_gap
+[5.008s] copying follow_the_gap/test_lidar.py -> /home/zero/f1tenth_ws/src/build/follow_the_gap/build/lib/follow_the_gap
+[5.009s] copying follow_the_gap/__init__.py -> /home/zero/f1tenth_ws/src/build/follow_the_gap/build/lib/follow_the_gap
+[5.010s] running install
+[5.014s] running install_lib
+[5.017s] creating /home/zero/f1tenth_ws/src/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap
+[5.018s] copying /home/zero/f1tenth_ws/src/build/follow_the_gap/build/lib/follow_the_gap/follow_the_gap.py -> /home/zero/f1tenth_ws/src/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap
+[5.018s] copying /home/zero/f1tenth_ws/src/build/follow_the_gap/build/lib/follow_the_gap/test_lidar.py -> /home/zero/f1tenth_ws/src/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap
+[5.019s] copying /home/zero/f1tenth_ws/src/build/follow_the_gap/build/lib/follow_the_gap/__init__.py -> /home/zero/f1tenth_ws/src/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap
+[5.021s] byte-compiling /home/zero/f1tenth_ws/src/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap/follow_the_gap.py to follow_the_gap.cpython-38.pyc
+[5.025s] byte-compiling /home/zero/f1tenth_ws/src/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap/test_lidar.py to test_lidar.cpython-38.pyc
+[5.027s] byte-compiling /home/zero/f1tenth_ws/src/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap/__init__.py to __init__.cpython-38.pyc
+[5.028s] running install_data
+[5.028s] creating /home/zero/f1tenth_ws/src/install/follow_the_gap/share/ament_index
+[5.029s] creating /home/zero/f1tenth_ws/src/install/follow_the_gap/share/ament_index/resource_index
+[5.029s] creating /home/zero/f1tenth_ws/src/install/follow_the_gap/share/ament_index/resource_index/packages
+[5.030s] copying resource/follow_the_gap -> /home/zero/f1tenth_ws/src/install/follow_the_gap/share/ament_index/resource_index/packages
+[5.031s] copying package.xml -> /home/zero/f1tenth_ws/src/install/follow_the_gap/share/follow_the_gap
+[5.031s] running install_egg_info
+[5.038s] Copying ../build/follow_the_gap/follow_the_gap.egg-info to /home/zero/f1tenth_ws/src/install/follow_the_gap/lib/python3.8/site-packages/follow_the_gap-0.0.0-py3.8.egg-info
+[5.042s] running install_scripts
+[5.123s] Installing follow_the_gap script to /home/zero/f1tenth_ws/src/install/follow_the_gap/lib/follow_the_gap
+[5.124s] Installing test_lidar script to /home/zero/f1tenth_ws/src/install/follow_the_gap/lib/follow_the_gap
+[5.126s] writing list of installed files to '/home/zero/f1tenth_ws/src/build/follow_the_gap/install.log'
+[5.238s] Invoked command in '/home/zero/f1tenth_ws/src/follow_the_gap' returned '0': PYTHONPATH=/home/zero/f1tenth_ws/src/build/follow_the_gap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zero/f1tenth_ws/src/install/follow_the_gap/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/follow_the_gap build --build-base /home/zero/f1tenth_ws/src/build/follow_the_gap/build install --record /home/zero/f1tenth_ws/src/build/follow_the_gap/install.log --install-scripts $base/lib/follow_the_gap --single-version-externally-managed install_data
